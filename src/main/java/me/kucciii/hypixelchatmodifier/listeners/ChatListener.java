@@ -8,13 +8,10 @@ import org.bukkit.event.player.PlayerChatEvent;
 import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
 
+@RequiredArgsConstructor
 public class ChatListener implements Listener {
 
     private final HypixelChatModifier plugin;
-
-    public ChatListener(HypixelChatModifier plugin) {
-        this.plugin = plugin;
-    }
 
     @EventHandler
     @SuppressWarnings("deprecation")
