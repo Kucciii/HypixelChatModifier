@@ -7,23 +7,20 @@ import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class HypixelChatModifier extends JavaPlugin {
-
-    private final FileConfiguration config = getConfig();
-    private final String consolePrefix = "[HypixelChatModifier] ";
-
+    
     @Override
     public void onEnable() {
-        getLogger().info(consolePrefix + "Registering Listeners...");
+        getLogger().info("Registering Listeners...");
         registerListeners();
-        getLogger().info(consolePrefix + "Registered listeners!");
-        getLogger().info(consolePrefix + "Loading configuration...");
+        getLogger().info("Registered listeners!");
+        getLogger().info("Loading configuration...");
         loadDefaultConfig();
-        getLogger().info(consolePrefix + "Loaded configuration.");
+        getLogger().info("Loaded configuration.");
     }
 
     @Override
     public void onDisable() {
-        getLogger().info(consolePrefix  + "Saving configuration.");
+        getLogger().info("Saving configuration.");
     }
 
     public void loadDefaultConfig() {
