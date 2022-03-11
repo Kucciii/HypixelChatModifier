@@ -1,0 +1,24 @@
+# Words to be filtered:
+wordInMessage: # If message sent by player contains words mentioned below will be blocked!
+# (IMPORTANT: Add below words in lower case to work)
+  - "ez"
+
+specificMessage: # Block specific messages to be sent by player. (Case Sensitive)
+  - "L"
+
+# Text sent in place of filtered words:
+replaceText:
+  - "Behold, the great and powerful, my magnificent and almighty nemesis!"
+  - "Please go easy on me, this is my first game."
+  - "When nothing is going right, go left."
+  - "I like pineapple on my pizza."
+  - "Your cps is godly :c"
+  - "I like minecraft pvp, but you are better than me!"
+  - "If the Minecraft World is infinite, how does the sun spin around it?"
+  - "I try to say bad things, but then this happens."
+  - "Why can't the Ender Dragon read a book? Because it always starts at the end!"
+  - "In my free time, I like watching cat videos on YouTube."
+  - "I need help, teach me how to play!"
+  - "Pls give me doggo memes!"
+  - "Your personality shines brighter than the sun."
+  - "I am bad at minecraft. Teach me please!"

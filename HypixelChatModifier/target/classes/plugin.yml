@@ -1,0 +1,11 @@
+name: HypixelChatModifier
+version: '1.0'
+main: me.kucciii.hypixelchatmodifier.HypixelChatModifier
+api-version: 1.18
+authors: [ Kucciii_ ]
+description: A plugin replica of Hypixel's chat system that changes filtered words to certain texts.
+
+commands:
+  hcm:
+    description: Display HypixelChatModifier's list of commands!
+    usage: /hcm , /hcm help
